@@ -68,17 +68,17 @@ timeTriple = round(stopTriple - startTriple, 5)
 print('\nExact Value of Single Midpoint Integration :\t', exact1)
 print('\tSingle Midpoint Integration :\t\t', numericalSingle)
 print('\tTime for Single Midpoint :\t\t', timeSingle)
-print('\tError Single Midpoint Integration :\t', exact1 - numericalSingle)
+print('\tError Single Midpoint Integration :\t', (exact1 - numericalSingle)/numericalSingle)
 
 print('\nExact Value Double Midpoint Integration :\t', exact2)
 print('\tDouble Midpoint Integration :\t\t', numericalDouble)
 print('\tTime for Double Midpoint :\t\t', timeDouble)
-print('\tError Double Midpoint Integration :\t', exact2 - numericalDouble)
+print('\tError Double Midpoint Integration :\t', (exact2 - numericalDouble)/numericalDouble)
 
 print('\nExact Value Triple Midpoint Integration :\t', exact3)
 print('\tTriple Midpoint Integration :\t\t', numericalTriple)
 print('\tTime of Triple Midpoint :\t\t', timeTriple)
-print('\tError Triple Midpoint Integration :\t', exact3 - numericalTriple)
+print('\tError Triple Midpoint Integration :\t', (exact3 - numericalTriple)/numericalTriple)
 
 data = {'Single':timeSingle, 'Double':timeDouble, 'Triple':timeTriple}
 parameter = list(data.keys())
