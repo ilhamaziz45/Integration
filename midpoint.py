@@ -1,8 +1,10 @@
-# I suggest you to run this code from PC terminal for appropriate layout
+# Saya menyarankan anda untuk menjalankan program di terminal windows untuk tampilan yang telah disesuaikan
 
+# Import Package
 import matplotlib.pyplot as plt
 import time
 
+# Mendefinisikan Fungsi
 def funcSingle(x):
     return (5*x**7) - (9*x**4) + (4*x) - 2
 
@@ -17,6 +19,7 @@ exact1 = 234880.40
 exact2 = 328064.80
 exact3 = 656385.60
 
+# Mendefinisikan Rumus Integral Lipat 1
 def midpointSingle(f, a, b, n):
     hx = float((b-a)/n)
     I = 0
@@ -50,6 +53,7 @@ def midpointTriple(f, a, b, c, d, g, h, n):
                 I += hx*hy*hz*f(xi, yj, zk)
     return I
 
+# Membuat rumus komputasi dan menyimpannya ke dalam variable
 startSingle = time.time()
 numericalSingle = round(midpointSingle(funcSingle, 3, 5, 50), 2)
 stopSingle = time.time()
