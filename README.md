@@ -1,9 +1,9 @@
-Integral is a concept of continuous addition in mathematics, and is the opposite of a differential or an ordinary derivative also called an antiderivative. There is an indefinite integral and a definite integral
+Integral adalah konsep penjumlahan kontinu dalam matematika dan merupakan kebalikan dari diferensial atau turunan biasa disebut juga antiturunan. Ada integral tak tentu dan integral tak tentu
 
-An indefinite integral is an integral with no upper and lower bounds, while a definite integral is an integral with an upper and lower limit.
+Integral tak tentu adalah integral tanpa batas atas dan bawah, sedangkan integral tentu adalah integral dengan batas atas dan bawah.
 
-A method is needed to calculate the area under the graph and is limited by the upper and lower limits. Some of the methods that are often used are Midpoint and Trapezoidal.
+Diperlukan suatu metode untuk menghitung luas daerah di bawah grafik dan dibatasi oleh batas atas dan batas bawah. Beberapa metode yang sering digunakan adalah Midpoint dan Trapesium.
 
-Both can be used to calculate the area under the graph, but python takes a long time to give a large value of N. Because both are conventional methods with looping methods. The larger the value of N given, the longer the computer takes to loop.
+Keduanya dapat digunakan untuk menghitung luas di bawah grafik, namun python membutuhkan waktu yang lama untuk memberikan nilai N yang besar. Karena keduanya merupakan metode konvensional dengan metode perulangan. Semakin besar nilai N yang diberikan, semakin lama waktu yang dibutuhkan komputer untuk melakukan loop.
 
-Therefore, a more effective method for calculating integrals is written, namely the array method. Where the values ​​are sorted from smallest to largest value without looping. This method is called Vectorized
+Oleh karena itu, ditulis metode yang lebih efektif untuk menghitung integral, yaitu metode array. Dimana nilai diurutkan dari nilai terkecil hingga terbesar tanpa perulangan. Metode ini disebut Vectorized
